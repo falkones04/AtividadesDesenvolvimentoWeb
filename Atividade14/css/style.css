@@ -1,0 +1,11 @@
+#img200px {
+    max-height:150px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#modalImg {
+    max-height:150px;
+    width: 100%;
+    object-fit: cover;
+}

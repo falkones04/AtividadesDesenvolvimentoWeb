@@ -1,0 +1,66 @@
+[
+{
+        "id": 0,
+        "nome":"Amon Klin Learze", 
+        "Rpg":"Dnd", 
+        "atributos":{
+                "força":12,
+                "agilidade":14,
+                "contituição":14 ,
+                "inteligencia":20,
+                "sabedoria":20,
+                "carisma":20
+        }, 
+        "Desc":"Amon nasceu em Val-toalan (cidades dos Altos elfos), acabou perdendo seus pais quando criança enquanto exploravam um calabouço apos isso ele se junto aos curadores do passado(arqueologos) para encontrar com seus pais",
+        "imgsrc":"https://i.pinimg.com/564x/73/0b/4c/730b4cfd444356c63eeda7e19a80ce8d.jpg"
+},
+{
+        "id": 1,
+        "nome":"Levi Torres", 
+        "Rpg":"Bokas", 
+        "atributos":{
+                "força":12,
+                "agilidade":14,
+                "destreza":13,
+                "contituição":14 ,
+                "inteligencia":20,
+                "sabedoria":20,
+                "carisma":20,
+                "percepção":20
+        }, 
+        "Desc":"Levi cresceu nas ruas de curitiba e fazia parte de uma gangue que foi atacada por um grupo de vilão agora quer entrar na U.A para ficar mais forte e buscar vingança pelos seus amigos que morreram no dia.",
+        "imgsrc":"https://i.pinimg.com/564x/9e/4a/53/9e4a53f1beacd64358cd11c4a6629f55.jpg"
+},
+{
+        "id": 2,
+        "nome":"Rose evergreen", 
+        "Rpg":"Dnd", 
+        "atributos":{
+                "força":12,
+                "agilidade":14,
+                "destreza":13,
+                "contituição":14 ,
+                "inteligencia":20,
+                "sabedoria":20,
+                "carisma":20,
+                "percepção":20
+        }, 
+        "Desc":"Levi cresceu nas ruas de curitiba e fazia parte de uma gangue que foi atacada por um grupo de vilão agora quer entrar na U.A para ficar mais forte e buscar vingança pelos seus amigos que morreram no dia.",
+        "imgsrc":"https://www.icegif.com/wp-content/uploads/icegif-1721.gif"
+},
+{
+        "id": 3,
+        "nome":"Aegis Stormhaven", 
+        "Rpg":"Duality", 
+        "atributos":{
+                "força":12,
+                "agilidade":14,
+                "contituição":14 ,
+                "inteligencia":20,
+                "sabedoria":20,
+                "carisma":20
+        }, 
+        "Desc":"Aegis Stormhaven filho de uma familia de nobres magos mas que por algum motivo acabou  nascendo sem a capacidade de entrar em contatos com o  mana",
+        "imgsrc":"https://i.pinimg.com/564x/08/03/1d/08031d6eee3a5f7ced5f3428fe3adc74.jpg"
+}
+]
