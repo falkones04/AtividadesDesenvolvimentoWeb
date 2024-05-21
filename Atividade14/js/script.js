@@ -48,20 +48,26 @@ function displaytela(items) {
 
         // Adiciona imagem e informações do personagem ao modal
         modalBody.innerHTML = `
-            <div class="card m-1">
+        <div class="card m-1">
             <div class="row">
-            <div class="col-4">
-                <img src="${selectedItem.imgsrc}" class="card-img-top border" id="modalImg">
-                </div>
-                <div class="col-8">
-                    <p><b>Personagem:</b>${selectedItem.nome}</p>
-                    <p><b>Descrição</b>:<br>${selectedItem.Desc}</p>
-                </div>
-                <div class="col-12">
-                    <span class="badge rounded-pill text-bg-danger mb-2">${selectedItem.Rpg}</span>
-                    <h4>Atributos</h4>
-                    ${Object.entries(selectedItem.atributos).map(([atributo, valor]) => `<p><b>${atributo.charAt(0).toUpperCase() + atributo.slice(1)}</b>: ${valor}</p>`).join('')}
+                <div class="col-4">
+                    <img src="${selectedItem.imgsrc}" class="card-img-top border" id="modalImg">
+                    </div>
+                    <div class="col-4">
+                        <p><b>Personagem:</b>${selectedItem.nome}</p>
+                        <p><b>Descrição</b>:<br>${selectedItem.Desc}</p>
+                        <span class="badge rounded-pill text-bg-danger mb-2">${selectedItem.Rpg}</span>
+                    </div>
+                    <div class="col-4">
+                        <h4>Atributos</h4>
+                        ${Object.entries(selectedItem.atributos).map(([atributo, valor]) => `<p><b>${atributo.charAt(0).toUpperCase() + atributo.slice(1)}</b>: ${valor}</p>`).join('')}
+                    </div>
+            </div> 
+            <div class="row ">
+                <div class="col-12 offset-4">
                 
-            </div>`;
+                </div>    
+            </div>
+        </div> `;
     });
 }
